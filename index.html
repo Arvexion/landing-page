@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://googleapis.com" rel="stylesheet">
 </head>
 <body>
     
@@ -12,7 +13,7 @@
         <div class="container">
 
             <header class="header">
-                <div>Header Logo</div>
+                <div class="header-logo">Header Logo</div>
                 <nav>
                     <ul class="nav-links">
                         <li><a class="hero-head-link">header link one</a></li>
@@ -24,8 +25,8 @@
 
             <div class="hero-content">
                 <div class="hero-text-block">
-                    <h2>This Websites is awesome</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et</p>
+                    <h2 class="hero-text-head">This Websites is awesome</h2>
+                    <p class="hero-text-body">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et</p>
                     <button class="btn-sign">Sign Up</button>
                 </div>
                 <div class="hero-image-placeholder">
@@ -39,24 +40,24 @@
     <section class="info-section">
         <div class="container">
 
-            <h2> Some Random information</h2>
+            <h2 class="info-head"> Some Random information</h2>
 
             <div class="info-grid">
                 <div class="info-card">
                     <div class="square-icon"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur</p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
                 </div>
                 <div class="info-card">
                     <div class="square-icon"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur</p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
                 </div>
                 <div class="info-card">
                     <div class="square-icon"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur</p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
                 </div>
                 <div class="info-card">
                     <div class="square-icon"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur</p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
                 </div>
             </div>
 
@@ -66,11 +67,13 @@
     <section class="quote-section">
         <div class="container">
 
-            <blockquote class="quote-text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
-            </blockquote>
+            <div class="quote-area">
+                <blockquote class="quote-text">
+                    <em>Li Eurgrammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues</em>
+                </blockquote>
 
-            <span class="quote-author"> -Thor guy idk </span>
+                <div class="quote-author">-Thor guy idk</div>
+            </div>
 
         </div>
     </section>
@@ -79,9 +82,9 @@
         <div class="container">
 
             <div class="cta-banner">
-                <div>
-                    <p>Call to action! Its time!!</p>
-                    <p>Sign up now, the button is right over there, just look</p>
+                <div class="action-text">
+                    <p class="call-to-action">Call to action! Its time!!</p>
+                    <p class="call-to-action-para">Sign up now, the button is right over there, just look</p>
                 </div>
                 <button class="action-button">Sign Up</button>
             </div>
@@ -90,7 +93,7 @@
     </section>
 
     <footer>
-        <p>Copyright &copy; The Odin Project 2026y</p>
+        <p>Copyright &copy; The Odin Project 2026</p>
     </footer>
     
 </body>
