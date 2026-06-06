@@ -205,3 +205,15 @@ nav {
     font-size: 18px;
     padding: 20px 40px 20px 40px;
 }
+
+/* FOOTER STYLE SECTION */
+footer {
+    color: #F9FAF8;
+    font-size: 18px;
+    background-color: #1F2937;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
