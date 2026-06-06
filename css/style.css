@@ -12,3 +12,74 @@ body {
     height: 500px;
 }
 
+
+/* HERO SECTION STYLING */
+.hero-section {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+
+}
+.hero-section .container {
+    display: flex;
+    flex-direction: column;
+    
+    width: 70vw;
+    gap: 100px;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+.hero-head-link {
+    color: #E5E7EB;
+    padding: 10px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.header {
+    display: flex;
+    justify-content: space-between
+}
+.hero-text-head {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+.hero-text-body {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.hero-image-placeholder {
+    background-color: grey;
+    width: 50vw;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-sign {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 30px 10px 30px;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
