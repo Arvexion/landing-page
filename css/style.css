@@ -158,3 +158,50 @@ nav {
     display: flex;
     justify-content: flex-end;
 }
+
+/* ACTION SECTION STYLING */
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.action .container {
+    width: 70vw;
+    height: 250px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-banner {
+    width: calc(100% - 50px);
+    height: calc(100% - 50px);
+    padding: 0 50px;
+    gap: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.action-text {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+.call-to-action {
+    font-weight: bold;
+    font-size: 36px;
+}
+.action-button {
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px 40px 20px 40px;
+}
