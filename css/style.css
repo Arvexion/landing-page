@@ -126,3 +126,35 @@ nav {
     border: 5px solid #3882F6;
     border-radius: 10px;
 }
+
+/* QUOTE SECTION STYLING */
+.quote-section {
+    background-color: #E5E7EB;
+}
+.quote-section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-area {
+    width: 70vw;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300px;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
